@@ -18,8 +18,8 @@ time.sleep(5)
 
 email = browser.find_element_by_xpath("//*[@id='username']")
 password = browser.find_element_by_xpath("//*[@id='password']")
-email.send_keys("emil.fetullayev.1992@gmail.com")
-password.send_keys("emil456654")
+email.send_keys("xxxxxxx@gmail.com")
+password.send_keys("xxxxxxxxxxx")
 
 login_button = browser.find_element_by_css_selector("#organic-div > form > div.login__form_action_container > button")
 login_button.click()
